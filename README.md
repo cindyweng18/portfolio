@@ -1,3 +1,8 @@
+# Portfolio
+Hello :smiley: Welcome to my portfolio repository. 
+
+To see the website/demo: https://cindyweng18.github.io/portfolio/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +73,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# Credits
+* Inspiration from [FreeCodeCamp](https://www.freecodecamp.org/news/portfolio-app-using-react-618814e35843/)
+* Template from Start Bootstrap
+* Style with Bootstrap
