@@ -16,6 +16,8 @@ export default class Skills extends Component {
                 <i class="devicon-html5-plain-wordmark"></i>
                 <i class="devicon-react-original-wordmark"></i>
                 <i class="devicon-npm-original-wordmark"></i>
+            <div class="subheading mb-3"> Languages </div>
+            <p> Fluent in Spanish and Cantonese </p>
             </div>
         </section>
         )
