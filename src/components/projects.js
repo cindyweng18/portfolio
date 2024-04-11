@@ -7,7 +7,36 @@ export default class Projects extends Component {
             <section class="resume-section" id="projects">
             <div class="resume-section-content reveal">
                 <h2 class="mb-5">Projects</h2>
-                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                <ul class="nav nav-pills nav-justified" id="pills-tab" role="tablist">
+                    <li class="nav-item">
+                        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true"> Web Applications </button>
+                    </li>
+                    <li class="nav-item">
+                        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false"> AI & Data Science </button>
+                    </li>
+                </ul>
+                <br></br>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Online Store Group Project</h3>
+                            <div class="subheading mb-3">City College of New York, NY.</div>
+                            <p>Created a web application using React, Flask, and MariaDB for users to purchase computer parts, use a discussion forum, manage their accounts, and view their purchased orders. </p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Janus</h3>
+                            <div class="subheading mb-3">City College of New York, NY.</div>
+                            <p> Worked on a team to create a chatbot for The City College of New York website using DistilBert and PyTorch for the model, Django, React, and SQLite for the web application.</p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                {/* <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Janus</h3>
                         <div class="subheading mb-3">City College of New York, NY.</div>
@@ -34,8 +63,7 @@ export default class Projects extends Component {
                         <div class="subheading mb-3">City College of New York, NY.</div>
                         <p>Created a web application using React, Flask, and MariaDB for users to purchase computer parts, use a discussion forum, manage their accounts, and view their purchased orders. </p>
                     </div>
-                </div>
-
+                </div> */}
             </div>
         </section>
         )
