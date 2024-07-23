@@ -12,6 +12,7 @@ export default class Education extends Component {
                             <h3 class="mb-0">The City College of The City University of New York</h3>
                             <div class="subheading mb-3">Bachelor of Science</div>
                             <div>Major: Computer Science</div>
+                            <div>Minor: Sociology</div>
                             <p>Graduated with Summa Cum Laude Honors</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">August 2017 - January 2022</span></div>
