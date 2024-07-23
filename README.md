@@ -1,7 +1,7 @@
 # Portfolio
 Hello :smiley: Welcome to my portfolio repository. 
 
-To see the website/demo: https://cindyweng18.github.io/portfolio/
+To see the website/demo: not here yet, pls hold
 
 # How To Run
 
