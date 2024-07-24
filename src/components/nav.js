@@ -47,10 +47,10 @@ function Nav()  {
                 )}
             </a>
 
-        {/* Navigation changes when screen width is bigger, similar to monitor size */}
         <button onClick={toggleNav} className="btn d-lg-none" type="button"><span className="navbar-toggler-icon"></span></button>
+        
+        {/* Navigation changes when screen width is bigger, similar to monitor size */}
         <div className="collapse navbar-collapse" id="navbarResponsive">
-
             <ul className="navbar-nav">
                 <li className="nav-item"> <Toggle> </Toggle> </li>
                 <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
