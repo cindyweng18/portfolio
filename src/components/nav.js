@@ -36,7 +36,7 @@ function Nav()  {
                 {/* Navigation changes when screen width is smaller, similar to phone size */}
                 {(toggleMenu || screenWidth > 1000) && (
                 <ul className="navbar-nav d-lg-none">
-                    <li className="nav-item d-lg-none"> <Toggle> </Toggle> </li>
+                    {/* <li className="nav-item d-lg-none"> <Toggle> </Toggle> </li> */}
                     <li className="nav-item d-lg-none"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li className="nav-item d-lg-none"><a className="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li className="nav-item d-lg-none"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
@@ -46,9 +46,8 @@ function Nav()  {
                     </ul>
                 )}
             </a>
-
         <button onClick={toggleNav} className="btn d-lg-none" type="button"><span className="navbar-toggler-icon"></span></button>
-        
+        <button className="btn d-lg-none" type="button"> <Toggle> </Toggle>  </button>
         {/* Navigation changes when screen width is bigger, similar to monitor size */}
         <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav">
