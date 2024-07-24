@@ -17,7 +17,7 @@ export default class About extends Component {
                 <div className="social-icons">
                     <a className="social-icon" href="https://www.linkedin.com/in/cindybrowning18/" target="_blank" rel="noopener noreferrer"> <i className="bi bi-linkedin"></i> </a>
                     <a className="social-icon" href="https://github.com/cindyweng18" target="_blank" rel="noopener noreferrer"> <i className="bi bi-github"></i> </a>
-                    <a className="social-icon" href="https://drive.google.com/file/d/1E1gRS5qeUhyXOWWhNzyBB5UHgd9GAxdr/view?usp=sharing" target="_blank" rel="noopener noreferrer"> <i class="bi bi-file-earmark-text-fill"></i> </a>
+                    <a className="social-icon" href="https://drive.google.com/file/d/1yJY-prwVJacRBEPe8glgqtSTVshO0Cyd/view?usp=sharing" target="_blank" rel="noopener noreferrer"> <i class="bi bi-file-earmark-text-fill"></i> </a>
                 </div>
             </div>
         </section>
