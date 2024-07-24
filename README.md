@@ -1,7 +1,7 @@
 # Portfolio
-Hello :smiley: Welcome to my portfolio repository. 
+Hello :smiley: Welcome to my personal portfolio repository. 
 
-To see the website/demo: not here yet, pls hold
+To see the website/demo: https://cindybrowning-portfolio.vercel.app/
 
 # How To Run
 
