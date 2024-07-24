@@ -1,5 +1,6 @@
 import React , {useState, useEffect} from 'react';
 import '../styles.css';
+import Toggle from './toggle';
 
 
 function Nav()  {
@@ -32,9 +33,10 @@ function Nav()  {
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a className="navbar-brand js-scroll-trigger" href="#page-top">
                 <span className="brand d-block d-lg-none">Cindy Browning</span>
-
+                {/* Navigation changes when screen width is smaller, similar to phone size */}
                 {(toggleMenu || screenWidth > 1000) && (
                 <ul className="navbar-nav d-lg-none">
+                    <li className="nav-item d-lg-none"> <Toggle> </Toggle> </li>
                     <li className="nav-item d-lg-none"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
                     <li className="nav-item d-lg-none"><a className="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                     <li className="nav-item d-lg-none"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
@@ -44,11 +46,13 @@ function Nav()  {
                     </ul>
                 )}
             </a>
-       
+
+        {/* Navigation changes when screen width is bigger, similar to monitor size */}
         <button onClick={toggleNav} className="btn d-lg-none" type="button"><span className="navbar-toggler-icon"></span></button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
 
             <ul className="navbar-nav">
+                <li className="nav-item"> <Toggle> </Toggle> </li>
                 <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#about">About</a></li>
                 <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#projects">Projects</a></li>
                 <li className="nav-item"><a className="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
