@@ -7,11 +7,23 @@ export default class Experience extends Component {
             <section class="resume-section" id="experience">
             <div class="resume-section-content reveal">
                 <h2 class="mb-5">Experience</h2>
-                
+
+                <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="flex-grow-1">
+                        <h3 class="mb-0">Affordable Dentures & Implants </h3>
+                        <div class="subheading mb-3">Office Manager</div>
+                        <ul>
+                            <li>Manage daily operations of the dental office, including staff leadership, patient scheduling, treatment coordination, and office efficiency to ensure quality care and operational success.</li>
+                            <li>Lead and motivate the dental team by fostering strong relationships, implementing efficiency systems, and overseeing staff training and record management. </li>
+                        </ul>
+                    </div>
+                    <div class="flex-shrink-0"><span class="text-primary">September 2024 - Present</span></div>
+                </div>
+
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Shu Ping Rong DDS PC </h3>
-                        <div class="subheading mb-3">Manager (January 2021 - Present)</div>
+                        <div class="subheading mb-3">Dental Treatment Coordinator (January 2021 - August 2024)</div>
                         <ul>
                             <li>Collaborate closely with the front desk team to optimize appointment scheduling while also playing a key role in training new staff, ensuring a smooth onboarding process.</li>
                             <li>Verify patient insurance coverage, clarify benefits and costs, and aid in understanding treatment options and financial transactions. </li>

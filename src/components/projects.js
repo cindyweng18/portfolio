@@ -58,6 +58,13 @@ export default class Projects extends Component {
                     <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
+                            <h3 class="mb-0">Boba Shop AI Chatbot</h3>
+                            <div class="subheading mb-3">Headstarter Fellowship, NY</div>
+                            <p> Collaborated with a team in developing an AI-driven customer support system using Next.js, Python and Meta's LLaMA 3 to automate and enhance service interactions.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
                             <h3 class="mb-0">Janus</h3>
                             <div class="subheading mb-3">City College of New York, NY.</div>
                             <p> Worked on a team to create a chatbot for The City College of New York website using DistilBert and PyTorch for the model, Django, React, and SQLite for the web application.</p>
